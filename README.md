@@ -1,22 +1,22 @@
 # Creating Rainbow in Java
 ## Combining Colors to make the sky rainbow pattern
 
-[x] Create two colors, INDIGO and VIOLET
-[x] Create array of colors and put ROY G. BIV plus two whites
-[x] In the constructor of Rainbow.java class, set background to WHITE
-[x] Create method paintComponent with Graphics object
-    [x] Create radius and set value of choice
-    [x] Get center of X
-    [x] Get center of Y
-    [x] Loop through colors
-    [x] Using object Graphics, setColor  to created colors with the loop - 1 to get last color
-    [x] Using object Graphics, fill the arc using fillArc method by setting the:-
-        [x] parameter x to center of X
-        [x] parameter y to center of Y
-        [x] parameter width to multiplicity of counter and radius double
-        [x] parameter height to multiplicity of counter and radius double
-        [x] parameter startArc to zero - no need for start angle because angle starts at 90 degrees
-        [x] parameter arcAngle to 180 degrees inorder to flatten the rainbow diagrams 
+[✔] Create two colors, INDIGO and VIOLET
+[✔] Create array of colors and put ROY G. BIV plus two whites
+[✔] In the constructor of Rainbow.java class, set background to WHITE
+[✔] Create method paintComponent with Graphics object
+    [✔] Create radius and set value of choice
+    [✔] Get center of X
+    [✔] Get center of Y
+    [✔] Loop through colors
+    [✔] Using object Graphics, setColor  to created colors with the loop - 1 to get last color
+    [✔] Using object Graphics, fill the arc using fillArc method by setting the:-
+        [✔] parameter x to center of X
+        [✔] parameter y to center of Y
+        [✔] parameter width to multiplicity of counter and radius double
+        [✔] parameter height to multiplicity of counter and radius double
+        [✔] parameter startArc to zero - no need for start angle because angle starts at 90 degrees
+        [✔] parameter arcAngle to 180 degrees inorder to flatten the rainbow diagrams 
         
         ```
         public class Rainbow extends JPanel {
